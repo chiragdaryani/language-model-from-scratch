@@ -35,7 +35,7 @@ To run this project,
 
 Our program **src/main.py** that takes three positional command-line arguments and an optional command-line argument. The three positional arguments should be in this order: the first is a path to the training data folder, the second is a path to the test data folder, and the third is a path to the output csv file. The optional argument should be one of the three to select the type of model to train: "--unsmoothed", "--laplace", or "--interpolation". When there is no optional argument specified, the program will default to the unsmoothed model.
 
-The assignment's training data is at [data/train](data/train) and the development data is at [data/dev](data/dev). That's why we have specified these paths in the execution commands above.
+The training data is at [data/train](data/train) and the development data is at [data/dev](data/dev). That's why we have specified these paths in the execution commands above.
 
 
 ## References
