@@ -1,12 +1,6 @@
-# Intro to NLP - Assignment 3
+# NLP Language Model from Scratch
 
-In this assignment, our aim is to create character n-gram language models for the different languages. A character language model will typically assign higher probabilities (and so, lower perplexities) to text in the same language as the text it was trained on. We will use this property of language models for language identification.
-
-## Team
-|Student name| CCID |
-|------------|------|
-|Chirag Daryani   |  cdaryani    |
-|Varshini Prakash   |  vprakash    |
+In this project, our aim is to create character n-gram language models for the different languages. A character language model will typically assign higher probabilities (and so, lower perplexities) to text in the same language as the text it was trained on. We will use this property of language models for language identification.
 
 ## How to Execute?
 
@@ -17,7 +11,7 @@ To run this project,
 3. Open Terminal in the directory you extracted the project folder to. 
 4. Change directory to the project folder using:
 
-    `cd f2021-asn3-terminator-007-main`
+    `cd language-model-from-scratch-main`
 5. Install the required libraries, **NLTK** and **NumPy** using the following commands:
 
     `pip3 install nltk`
